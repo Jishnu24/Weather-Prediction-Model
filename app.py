@@ -22,8 +22,8 @@ def predict():
 	if request.method == "POST":
 		# DATE
 		date = request.form['date']
-		day = float(pd.to_datetime(date, format="%Y-%m-%dT").day)
-		month = float(pd.to_datetime(date, format="%Y-%m-%dT").month)
+		day = float(pd.to_datetime(date, format="%Y-%m-%d").day)
+		month = float(pd.to_datetime(date, format="%Y-%m-%d").month)
 		# MinTemp
 		minTemp = float(request.form['mintemp'])
 		# MaxTemp

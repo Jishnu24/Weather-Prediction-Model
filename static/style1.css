@@ -7,7 +7,7 @@
 	font-family: "Poppins", sans-serif;
 	scroll-behavior: smooth;
 	scrollbar-width: thin;
-	--primary-color: #00b7c2;
+	--primary-color: #217b17;
 }
 
 section {
@@ -25,7 +25,7 @@ section a {
 section:nth-child(1) {
 	justify-content: flex-start;
 	background: linear-gradient(#0004, #0004),
-		url(https://img.freepik.com/free-photo/weather-effects-composition_23-2149853295.jpg?size=626&ext=jpg)
+		url(raining2.jpeg)
 			no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -38,7 +38,8 @@ section:nth-child(1) .media-icons i {
 }
 
 #about {
-	background-color: #eee;
+	background-color: black;
+	color: white;
 	min-height: 60vh;
 	padding: 7% 10%;
 }
@@ -53,7 +54,8 @@ section:nth-child(1) .media-icons i {
 
 #dashboard {
 	padding: 7% 10%;
-	background-color: #ddd;
+	background-color: black;
+	color: white;
 }
 
 #dashboard h2 {
@@ -235,13 +237,13 @@ header .navigation a:hover {
 }
 
 footer {
-	background-color: #ccc;
+	background-color: black;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
-	color: #333;
+	color: white;
 }
 
 footer p {
